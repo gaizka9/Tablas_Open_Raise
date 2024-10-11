@@ -38,11 +38,12 @@ function crearTabla(manos) {
             const cell = row.insertCell();
             const index = i * 13 + j; 
 
-                const mano = manos[index];
-                cell.textContent = mano.mano; // Agregar el texto de la mano
-                cell.classList.add(mano.suit); // Añadir la clase suit
-                cell.classList.add(mano.move); // Añadir la clase move
-            
+                const carta = manos[index];
+                cell.textContent = carta.mano; // Agregar el texto de la mano
+                cell.classList.add(carta.suit); // Añadir la clase suit
+                cell.classList.add(carta.move); // Añadir la clase move
+                cell.id = carta.mano;
+                cell.setAttribute('data-move', carta.move);
         }
     }
 
