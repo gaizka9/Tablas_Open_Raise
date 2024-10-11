@@ -1,0 +1,848 @@
+[
+    {
+      "mano": "AA",
+      "suit": "pair",
+      "move": "raise"
+    },
+    {
+      "mano": "AKs",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "AQs",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "AJs",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "ATs",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "A9s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "A8s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "A7s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "A6s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "A5s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "A4s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "A3s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "A2s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "AKo",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "KK",
+      "suit": "pair",
+      "move": "raise"
+    },
+    {
+      "mano": "KQs",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "KJs",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "KTs",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "K9s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "K8s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "K7s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "K6s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "K5s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "K4s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "K3s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "K2s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "AQo",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "KQo",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "QQ",
+      "suit": "pair",
+      "move": "raise"
+    },
+    {
+      "mano": "QJs",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "QTs",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "Q9s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "Q8s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "Q7s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "Q6s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "Q5s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "Q4s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "Q3s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "Q2s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "AJo",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "KJo",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "QJo",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "JJ",
+      "suit": "pair",
+      "move": "raise"
+    },
+    {
+      "mano": "JTs",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "J9s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "J8s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "J7s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "J6s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "J5s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "J4s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "J3s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "J2s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "ATo",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "KTo",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "QTo",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "JTo",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "TT",
+      "suit": "pair",
+      "move": "raise"
+    },
+    {
+      "mano": "T9s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "T8s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "T7s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "T6s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "T5s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "T4s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "T3s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "T2s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "A9o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "K9o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "Q9o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "J9o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "T9o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "99",
+      "suit": "pair",
+      "move": "raise"
+    },
+    {
+      "mano": "98s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "97s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "96s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "95s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "94s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "93s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "92s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "A8o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "K8o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "Q8o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "J8o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "T8o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+     {
+      "mano": "98o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "88",
+      "suit": "pair",
+      "move": "raise"
+    },
+    {
+      "mano": "87s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "86s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "85s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "84s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "83s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "82s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "A7o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "K7o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "Q7o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "J7o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "T7o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "97o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "87o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "77",
+      "suit": "pair",
+      "move": "raise"
+    },
+    {
+      "mano": "76s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "75s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "74s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "73s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "72s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "A6o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "K6o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "Q6o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "J6o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "T6o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "96o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "86o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "76o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "66",
+      "suit": "pair",
+      "move": "raise"
+    },
+    {
+      "mano": "65s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "64s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "63s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "62s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "A5o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "K5o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "Q5o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "J5o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "T5o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "95o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "85o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "75o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "65o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "55",
+      "suit": "pair",
+      "move": "raise"
+    },
+    {
+      "mano": "54s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "53s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "52s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "A4o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "K4o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "Q4o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "J4o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "T4o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "94o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "84o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "74o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "64o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "54o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "44",
+      "suit": "pair",
+      "move": "raise"
+    },
+    {
+      "mano": "43s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "42s",
+      "suit": "suited",
+      "move": "fold"
+    },
+    {
+      "mano": "A3o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "K3o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "Q3o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "J3o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "T3o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "93o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "83o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "73o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "63o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "53o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "43o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "33",
+      "suit": "pair",
+      "move": "raise"
+    },
+     {
+      "mano": "32s",
+      "suit": "suited",
+      "move": "raise"
+    },
+    {
+      "mano": "A2o",
+      "suit": "offsuit",
+      "move": "raise"
+    },
+    {
+      "mano": "K2o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "Q2o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "J2o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "T2o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "92o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "82o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "72o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "62o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "52o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "42o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "32o",
+      "suit": "offsuit",
+      "move": "fold"
+    },
+    {
+      "mano": "22",
+      "suit": "pair",
+      "move": "raise"
+    }
+  ]
+

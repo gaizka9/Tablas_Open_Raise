@@ -1,0 +1,88 @@
+table {
+    border-collapse: collapse; 
+    margin-left: 220px; /* Separa la tabla del sidebar */
+    margin-top: 30px;
+    padding: 20px;
+}
+
+td, th {
+    width: 50px;
+    height: 50px; 
+    text-align: center; 
+    vertical-align: middle;
+}
+td {
+    background-clip: content-box; 
+    border-spacing: 5px;
+    font-weight: bold; 
+}
+
+/* Colores celdas */
+.suited {
+    background-color: #ceebff; 
+}
+
+.offsuit {
+    background-color: #fff2d0; 
+}
+
+.pair {
+    background-color: #ceffd0; 
+}
+
+/* Estilo para el sidebar */
+.sidebar {
+    width: 200px; /* Ancho del sidebar */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-color: #000000; /* Color de fondo oscuro */
+    display: flex; /* Usamos flexbox para organizar el contenido */
+    flex-direction: column; /* Alinea los elementos de manera vertical */
+    align-items: center; /* Centra horizontalmente los elementos */
+    padding-top: 20px; /* Espaciado superior */
+    position: fixed; /* Fija el sidebar en la pantalla */
+    top: 0;
+    left: 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-family: 'Arial Black', sans-serif; 
+    font-size: 30px; 
+    color: #ffffff; 
+}
+
+.sidebar span {
+    font-family: 'Arial Black', sans-serif; 
+    font-size: 16px; 
+    color: #ffffff; 
+    margin-bottom: 20px;
+}
+
+button {
+    width: 80%;
+    margin-bottom: 5px !important;
+}
+
+
+
+.clases-colores {
+    margin-top: 20px; 
+    margin-left: 220px; 
+}
+
+.color-box {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+.class-name {
+    font-weight: bold; 
+}
+
+.color-square {
+    margin-right: 10px;
+    width: 25px; 
+    height: 25px; 
+    display: inline-block; 
+}
