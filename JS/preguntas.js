@@ -11,7 +11,7 @@ function hacerPregunta() {
     const posicion = ["utg", "utg1", "mp", "mp1", "hijack", "cutoff", "button", "sb"];
     const aleatorio = Math.floor(Math.random() * posicion.length);
 
-    fetch(`./json/${posicion[aleatorio]}.json`)
+    fetch(`./json/RFI/${posicion[aleatorio]}.json`)
         .then((response) => response.json())
         .then((data) => {
             datosPregunta(data, posicion[aleatorio]);

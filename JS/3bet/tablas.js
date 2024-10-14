@@ -12,7 +12,10 @@ document.querySelectorAll('button').forEach((button) => {
 
 
 function fetchAndCreateTable(item) {
-    fetch("./json/RFI/" + item + ".json")
+    const fullPath = window.location.pathname;
+    const fileName = fullPath.substring(fullPath.lastIndexOf('/') + 1).replace('.html', '/');
+
+    fetch("./../json/3BET/" + fileName + item + ".json")
         .then((response) => {
             return response.json();
         })
