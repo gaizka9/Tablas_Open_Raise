@@ -1,19 +1,18 @@
 hacerPregunta(); 
 
 function hacerPregunta() {
-    
+    // Reiniciar el color de los botones
     const options = document.getElementsByClassName('quiz-option');
     for (let option of options) {
         option.style.backgroundColor = '#0d6efd'; // Color por defecto
+        option.disabled = false; // Habilitar los botones nuevamente
     }
 
     const posicion = ["utg", "utg1", "mp", "mp1", "hijack", "cutoff", "button", "sb"];
     const aleatorio = Math.floor(Math.random() * posicion.length);
 
     fetch(`./json/${posicion[aleatorio]}.json`)
-        .then((response) => {
-            return response.json();
-        })
+        .then((response) => response.json())
         .then((data) => {
             datosPregunta(data, posicion[aleatorio]);
         })
@@ -27,33 +26,42 @@ function datosPregunta(data, posicion) {
     const carta = data[aleatorio];
 
     const pregunta = document.getElementById("pregunta");
-    pregunta.innerHTML = `<h4>Estas en la posicion <b>${posicion.toUpperCase()}</b> y tu mano es <b>${carta.mano}</b> <br>¿Qué deberías hacer?</h4>`;
+    pregunta.innerHTML = `<h4>Estas en la posición <b>${posicion.toUpperCase()}</b> y tu mano es <b>${carta.mano}</b> <br>¿Qué deberías hacer?</h4>`;
 
     const correctAnswer = carta.move;
 
-    // Quitar eventos de clic anteriores para evitar múltiples disparos
+    // Obtener todos los botones de opción
     const buttons = document.querySelectorAll('.quiz-option');
+
+    // Limpiar eventListeners antiguos y asignar nuevos a los botones
     buttons.forEach(button => {
-        button.removeEventListener('click', handleButtonClick); // Quitar el evento anterior
-        button.addEventListener('click', handleButtonClick); // Añadir el nuevo evento
+        button.removeEventListener('click', handleButtonClick); // Eliminar cualquier eventListener previo
+        button.addEventListener('click', handleButtonClick); // Agregar nuevo eventListener
+        button.correctAnswer = correctAnswer; // Almacenar la respuesta correcta en el botón
+    });
+}
+
+
+function handleButtonClick(event) {
+    const selectedAnswer = this.getAttribute('data-answer');
+    const correctAnswer = this.correctAnswer; 
+    const buttons = document.querySelectorAll('.quiz-option');
+
+    console.log("Respuesta seleccionada:", selectedAnswer);
+
+    // Resetear todos los botones a su color por defecto
+    buttons.forEach(button => {
+        button.style.backgroundColor = '#0d6efd'; // Color por defecto
+        button.disabled = true; // Deshabilitar botones para evitar múltiples clics
     });
 
-    function handleButtonClick() {
-        const selectedAnswer = this.getAttribute('data-answer');
-        console.log("Respuesta seleccionada:", selectedAnswer); // Para depurar
+    // Cambiar el color del botón seleccionado
+    const incorrecto = document.querySelector('button[data-answer="' + selectedAnswer + '"]');
+    incorrecto.style.backgroundColor = 'red';
 
-        // Resetear todos los botones a su color por defecto
-        buttons.forEach(button => {
-            button.style.backgroundColor = '#0d6efd'; // Color por defecto
-        });
+    const correcto = document.querySelector('button[data-answer="' + correctAnswer + '"]');
+    correcto.style.backgroundColor = 'green';
 
-        const incorrecto = document.querySelector('button[data-answer="' + selectedAnswer + '"]');
-        incorrecto.style.backgroundColor = 'red';
-
-        const correcto = document.querySelector('button[data-answer="' + correctAnswer + '"]');
-        correcto.style.backgroundColor = 'green';
-
-        // Espera un segundo y llama a hacerPregunta nuevamente
-        setTimeout(hacerPregunta, 1000);
-    }
+    // Espera un segundo y llama a hacerPregunta nuevamente
+    setTimeout(hacerPregunta, 1000);
 }
