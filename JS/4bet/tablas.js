@@ -15,7 +15,7 @@ function fetchAndCreateTable(item) {
     const fullPath = window.location.pathname;
     const fileName = fullPath.substring(fullPath.lastIndexOf('/') + 1).replace('.html', '/'); //file.html --> file/
 
-    fetch("./../../json/3BET/" + fileName + item + ".json")
+    fetch("./../../json/4BET/" + fileName + item + ".json")
         .then((response) => {
             return response.json();
         })
